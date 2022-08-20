@@ -1,1 +1,1 @@
-qwewqeqwewqewqewqeqweqwewqeqweqwehqw
+jadi bagus bro
