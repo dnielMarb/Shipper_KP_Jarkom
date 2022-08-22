@@ -1,0 +1,1 @@
+jadi bagus bro
