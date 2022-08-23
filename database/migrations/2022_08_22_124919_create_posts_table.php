@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->String('title');
+            $table->text('excerpt');
+            $table->text('body');
+            $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }
@@ -29,3 +33,4 @@ return new class extends Migration
         Schema::dropIfExists('posts');
     }
 };
+

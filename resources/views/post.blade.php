@@ -3,11 +3,12 @@
 @section('container')
 
 <article class="mb-5">
-    <h2>{{ $post["title"] }}</h2>
-    <h5>{{ $post["author"] }}</h5>
-    <p> {{ $post["body"] }} </p>
+    <h2>{{ $post->title }}</h2>
+    <h5>{{ $post->author }}</h5>
+     {{ $post->body }} 
     <p>Tes aja broo</p>
 </article>
 
 <a href="/blog">Back to blog</a>
 @endsection
+
