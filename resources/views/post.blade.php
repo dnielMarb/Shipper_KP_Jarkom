@@ -6,7 +6,11 @@
     <h2>{{ $post->title }}</h2>
     <h5>{{ $post->author }}</h5>
      {{ $post->body }} 
-    <p>Tes aja broo</p>
+
+     <!-- Ini bisa digunakan kalau untuk memakai paragraph, tetapi dikaliamtnya dimasukkan syntax htmlnya -->
+     <!-- {!! $post->body !!} -->
+     
+    
 </article>
 
 <a href="/blog">Back to blog</a>
