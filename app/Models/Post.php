@@ -9,9 +9,9 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'excerpt', 'body']; //parameter yang bisa di ubah hanya yang ada di dalam tanda kurung.
-
-    // protected $guarded = ['id']; //artinya ini tidak boleh di ubah selain itu bisa. 
+    // protected $fillable = ['title', 'excerpt', 'body']; //parameter yang bisa di ubah hanya yang ada di dalam tanda kurung.
+    //artinya ini tidak boleh di ubah selain itu bisa. 
+    protected $guarded = ['id']; 
 }
 
 

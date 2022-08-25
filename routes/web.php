@@ -28,4 +28,4 @@ Route::get('/about', [PostController::class, 'tentang']);
 Route::get('/blog', [PostController::class, 'index']);
 
 
-Route ::get('posts/{post}', [PostController::class, 'show']);
+Route ::get('posts/{post:slug}', [PostController::class, 'show']);

@@ -4,12 +4,14 @@
 
 <article class="mb-5">
     <h2>{{ $post->title }}</h2>
-    <h5>{{ $post->author }}</h5>
-     {{ $post->body }} 
-
+    <h5>{{ $post->author }}</h5>    
+    
      <!-- Ini bisa digunakan kalau untuk memakai paragraph, tetapi dikaliamtnya dimasukkan syntax htmlnya -->
-     <!-- {!! $post->body !!} -->
-     
+     {!! $post->body !!}
+
+    <!-- ini akan menambahkan kalimat tapi untuk paragraphnya tidak ada karena tidak medeteksi syntak html -->
+    <!-- {{ $post->body }}  -->
+  
     
 </article>
 
