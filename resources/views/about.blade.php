@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-   
+
    <h1>Halaman About</h1>
     <!-- Syntax ini sama saja, hanya saja lebih dipermudah karena sudah memakai blade -->
     <!-- <h3><?php echo $name;  ?></h3> -->

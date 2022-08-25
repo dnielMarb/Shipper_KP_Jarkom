@@ -4,7 +4,7 @@
 
 <article class="mb-5">
     <h2>{{ $post->title }}</h2>
-    <h5>{{ $post->author }}</h5>    
+    <p>By. Daniel Marb in <a href="/categories/{{ $post->category->slug }} ">  {{ $post->category->name  }}</a> </p>
     
      <!-- Ini bisa digunakan kalau untuk memakai paragraph, tetapi dikaliamtnya dimasukkan syntax htmlnya -->
      {!! $post->body !!}
